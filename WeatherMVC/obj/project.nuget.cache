@@ -1,8 +1,43 @@
 {
   "version": 2,
-  "dgSpecHash": "v057Ik/Eo21yO5+c9kYtGysRhqGpI5YnjVJi/eblhTPNXYoNyfLATqiy+Sxj9wLz4HdPba1PzBse3tcZ97YtTQ==",
+  "dgSpecHash": "3+GGNFGeWO7w0diTofaF+FP9JVWkPCNEjXpgDRTsmJnIvtTnMQKWZSTNgDcK04g+CqthMjmvWtDGitBsMNCpWg==",
   "success": true,
   "projectFilePath": "/Users/indhu/Documents/WeatherMVC/WeatherMVC/WeatherMVC.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "/Users/indhu/.nuget/packages/microsoft.aspnet.webapi.client/4.0.20710/microsoft.aspnet.webapi.client.4.0.20710.nupkg.sha512",
+    "/Users/indhu/.nuget/packages/microsoft.net.http/2.0.20710/microsoft.net.http.2.0.20710.nupkg.sha512",
+    "/Users/indhu/.nuget/packages/newtonsoft.json/4.5.6/newtonsoft.json.4.5.6.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebApi.Client 4.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebApi.Client",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Net.Http 2.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json 4.5.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

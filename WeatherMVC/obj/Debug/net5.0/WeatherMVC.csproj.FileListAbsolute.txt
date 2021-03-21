@@ -39,3 +39,5 @@
 /Users/indhu/Documents/WeatherMVC/WeatherMVC/obj/Debug/net5.0/WeatherMVC.csproj.CopyComplete
 /Users/indhu/Documents/WeatherMVC/WeatherMVC/obj/Debug/net5.0/Razor/Views/Weather/index.cshtml.g.cs
 /Users/indhu/Documents/WeatherMVC/WeatherMVC/obj/Debug/net5.0/Razor/Views/Weather/Weather.cshtml.g.cs
+/Users/indhu/Documents/WeatherMVC/WeatherMVC/bin/Debug/net5.0/System.Net.Http.Formatting.dll
+/Users/indhu/Documents/WeatherMVC/WeatherMVC/bin/Debug/net5.0/Newtonsoft.Json.dll
