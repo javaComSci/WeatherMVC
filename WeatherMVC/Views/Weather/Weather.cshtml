@@ -1,0 +1,20 @@
+@model IEnumerable<WeatherModel> 
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col"> Date </th>
+            <th scope="col"> Temp </th>
+            <th scope="col"> Weather </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var weatherItem in Model) {
+            <tr>
+                <td> @weatherItem.Date </td>
+                <td> @weatherItem.Temp </td>
+                <td> @weatherItem.Weather </td>
+            </tr>
+        }
+    </tbody>
+</table>

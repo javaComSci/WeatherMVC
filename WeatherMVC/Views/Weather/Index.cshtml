@@ -1,0 +1,6 @@
+@model WeatherMVC.Models.ZipcodeModel
+
+<form asp-controller="Weather" asp-action="Weather" method="post">
+    Zipcode: <input asp-for="Zipcode" />
+    <button type="submit">Get Weather</button>
+</form>
